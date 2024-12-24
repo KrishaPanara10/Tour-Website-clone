@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css\bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js\bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black; /* Black background */
+            color: white; /* White text color */
+        }
+
+        .header {
+            background-color: green; /* Green header */
+            padding: 10px;
+            text-align: center;
+        }
+
+        .header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 18px;
+        }
+
+        .header a:hover {
+            text-decoration: underline;
+        }
+
+        .form-container {
+            margin: 50px auto;
+            width: 300px;
+            padding: 20px;
+            background-color: #1a1a1a; /* Slightly lighter black for form */
+            border: 1px solid green;
+            border-radius: 5px;
+        }
+
+        .form-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: green;
+        }
+
+        .form-container label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-container input, 
+        .form-container textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid green;
+            border-radius: 5px;
+            background-color: black;
+            color: white;
+        }
+
+        .form-container input[type="submit"] {
+            background-color: green;
+            color: black;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .form-container input[type="submit"]:hover {
+            background-color: #006400; /* Darker green */
+        }
+    </style>
+</head>
+<body>
+   <div class="top-part">
+        <div class="fix-width">
+            <div class="left-part">
+                <i>+91 98987 87788</i>
+                <span>|</span>
+                contactionfo@gmail.com
+            </div>
+            
+            <div class="right-part">
+                <a href="index2.html">Home</a>
+                |
+                <a href="login.html">Login</a>
+            </div>
+        </div>
+   </div>
+
+	
+   <div class="form-container">
+    <h2>Login</h2>
+    <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="feedback">Feedback / Questions:</label>
+        <textarea id="feedback" name="feedback" rows="4" required></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+   </div>
+
+    <footer>
+        <div class="fix-width">
+            <div class="footer-top">
+
+                <div class="footer-box">
+                    <div class="footer-box-content">
+                       <img src="image\logo.svg">
+                       <p>Invincible is a Non Government Organization, being run by young students for social reformation and building the nation with moral values and ethics.</p>
+                    </div>
+                    <div class="social-icons">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-youtube-play"></i>
+                        <i class="fa fa-whatsapp"></i>
+                        <i class="fa fa-map-marker"></i>
+                    </div>
+                </div>
+
+                <div class="footer-box">
+                    <div class="footer-box-content">
+                        <h2>Quick Links</h2>
+                        <nav class="footer-menu">
+                            <ul>
+                                <li><a href="">Events</a></li>
+                                <li><a href="">Download</a></li>
+                                <li><a href="">Login</a></li>
+                                <li><a href="">Stories</a></li>
+                                <li><a href="">Contact Us</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="footer-box">
+                    <div class="footer-box-content">
+                       <h2>Contact Us</h2>
+                       <h3>Ahmedabad (Head Office)</h3>
+                       <p>308, University Plaza, Above Chocolate Room,
+                        Vijay Cross Roads, Navrangpura,
+                        Ahmedabad, Gujarat 380009</p>
+                        <p>Office Timings: 11AM to 8PM</p>
+                        <div class="footer-contact">
+                            <span class="material-symbols-outlined icons">call</span>
+                            +91 98987 87877<br>
+                            <span class="material-symbols-outlined icons">call</span>
+                            +91 98987 87877
+                        </div>
+                        <div class="footer-link">
+                            <a href="">Contact for Rajkot, Baroda, Surat Office</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer-bottom">
+                &copy; 2013-2024 Invincible. • Privacy Policy • Terms and Conditions
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
